@@ -2,13 +2,15 @@
 import React, { useState } from "react";
 
 import logo from "../assets/logo.svg";
-import Home from "../assets/home-solid.svg";
 import { NavLink } from "react-router-dom";
 import {
   CalendarHeart,
   Hospital,
   Stethoscope,
   UserRectangle,
+  House,
+  List,
+  MinusCircle
 } from "@phosphor-icons/react";
 
 const Sidebar = () => {
@@ -22,20 +24,24 @@ const Sidebar = () => {
     `sidebar-item${isActive ? " active" : ""}`;
 
   return (
-    <div className="sidebar">
-      <button
-        className={`sidebar-toggle${click ? " is-open" : ""}`}
-        onClick={() => handleClick()}
-      >
-        Click
-      </button>
+        <div className="sidebar">
+          <button
+      className={`sidebar-toggle${click ? " is-open" : ""}`}
+      onClick={() => handleClick()}
+    >
+      {click ? (
+        <MinusCircle size={32} />  
+      ) : (
+        <List size={32} />         
+      )}
+      </button>   
       <div className="sidebar-shell">
         <div className="sidebar-logo">
           <img src={logo} alt="logo" />
         </div>
         <ul className={`sidebar-list${click ? " is-open" : ""}`}>
           <NavLink onClick={() => setClick(false)} to="/" end className={getItemClass}>
-            <img src={Home} alt="Home" />
+            <House className="sidebar-icon" size={20} weight="fill" /> 
             <span className={`sidebar-text${click ? " is-open" : ""}`}>
               Home
             </span>

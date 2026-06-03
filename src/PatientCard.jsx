@@ -1,4 +1,6 @@
 //مطلوب بالوظيفة  
+//  الموقع : 
+// https://alhasan-hospital.netlify.app
 export default function PatientCard({ patient, selected, onToggleSelected, onDelete }) {
   return (
     <div>

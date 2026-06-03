@@ -42,7 +42,7 @@ export default function PatientsDashboard() {
     }
     const handleAddPatient = (newPatient) => {
     const patient = {
-        id: Date.now(),
+        id: patients.length  + 1 ,
         ...newPatient,
     };
 
@@ -61,7 +61,7 @@ export default function PatientsDashboard() {
     Add Patient
 </button>
 
-    {selectedCount > 0 && (
+    {selectedCount > 0 && ( 
         <>
             <button
                 className="btn btn-clear"

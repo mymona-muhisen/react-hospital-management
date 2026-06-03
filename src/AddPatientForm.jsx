@@ -1,3 +1,4 @@
+// مطلوب بالوظيفة
 import { useState } from "react";
 
 export default function AddPatientForm({onAddPatient}) {
