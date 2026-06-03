@@ -1,5 +1,12 @@
 # 🏥 Patient Management Dashboard
+# 🏥 React Hospital App
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_App-1c777d?style=for-the-badge&logo=netlify&logoColor=white)](https://alhasan-hospital.netlify.app)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+A modern patient management dashboard built with React and Vite.
 A modern patient management dashboard built with React. The application allows users to manage patient records through a clean and responsive interface.
 
 ## 📋 Overview
