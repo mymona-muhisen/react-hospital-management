@@ -1,12 +1,117 @@
-# React + Vite
+# 🏥 Patient Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern patient management dashboard built with React. The application allows users to manage patient records through a clean and responsive interface.
 
-Currently, two official plugins are available:
+## 📋 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was developed as a React practice project to demonstrate:
 
-## Expanding the ESLint configuration
+* Component-based architecture
+* State management using React Hooks
+* Form handling
+* Modal implementation
+* CRUD operations
+* Responsive UI design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* View all patients in a dashboard layout
+* Add new patients through a modal form
+* Delete patient records
+* Select multiple patients
+* Clear current selection
+* Responsive design for different screen sizes
+* Reusable React components
+
+## 🛠️ Technologies Used
+
+* React
+* JavaScript (ES6+)
+* CSS3
+* React Hooks
+
+  * useState
+  * useMemo
+** GSAP (GreenSock Animation Platform)
+* Phosphor Icons
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+* Node.js
+* npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mymona-muhisen/React-Hospital-App.git
+```
+
+Navigate to the project directory:
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+## 📸 Screenshots
+
+Uploading 03.06.2026_18.19.41_REC.mp4…
+<img width="1920" height="885" alt="image" src="https://github.com/user-attachments/assets/2ce0ab39-4d0c-4f43-9a0c-300f500f9e27" />
+
+
+## 🎯 Learning Objectives
+
+This project helped me practice:
+* Curser animation (gsap)
+* React component communication
+* State lifting
+* Controlled forms
+* Conditional rendering
+* Array manipulation with map and filter
+* Responsive UI development
+
+## 🔮 Future Improvements
+
+* Edit patient information
+* Search and filter patients
+* Persistent storage with Local Storage
+* Backend integration with Laravel API
+* Authentication and authorization
+* Pagination
+
+## 👩‍💻 Author
+
+Developed by Ym
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+1. Fork the project
+2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
+3. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
+4. Push to the branch (\`git push origin feature/AmazingFeature\`)
+5. Open a Pull Request
+
+   
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
